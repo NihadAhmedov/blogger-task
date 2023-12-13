@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#sectionDiscount {
+    background-image: url("https://preview.colorlib.com/theme/blogger/img/header-bg.jpg");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .discountumui {
+        width: 70%;
+        display: flex;
+        gap: 50px;
+
+        .discount {
+            color: white;
+
+            #font {
+                font-size: 50px;
+            }
+        }
+    }
+
+    .col-xl-6 {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        color: white;
+    }
+
+    .comments {
+        display: flex;
+    }
+
+    .likes {
+        display: flex;
+    }
+
+    .wiens {
+        display: flex;
+    }
+}
+
+.latest {
+    text-align: center;
+}
+
+.twocommets {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.photoumumi {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .janBtn button {
+        border: 0;
+        padding: 8px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+
+        margin-bottom: 15px;
+    }
+}
+
+.topics {
+    text-align: center;
+}
+
+.imageSec3 img {
+    width: 250px;
+}
+
+.addiction {
+    width: 100%;
+}
+
+.like {
+    display: flex;
+    justify-content: space-between;
+
+    .comments {
+        display: flex;
+    }
+}
+
+.loadmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadmore button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 130px;
+    font-size: 18px;
+}
+
+.loadmore button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.fashion {
+    text-align: center;
+}
+
+.addictionfour {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .jan2btn button {
+        border: 0;
+        padding: 5px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        width: 170px;
+        margin-bottom: 15px;
+    }
+
+    .lorem {
+        font-size: 13px;
+    }
+}
+
+.about {
+    text-align: center;
+}
+
+.behaviour {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+.walker {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .walkerImg {
+        margin-bottom: 20px;
+    }
+
+}
+
+.eightimage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.addictionfour {
+    border: 1px solid gray;
+
+    .addicphoto img {
+        width: 100%;
+    }
+
+   .paddng{
+    padding: 10px;
+   }
+
+}
+
+#secfooter {
+    background-color: black;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+.newsinput {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .news {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .inputs {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .inp {
+            display: flex;
+            gap: 20px;
+        }
+    }
+
+
+    .inputs input {
+        padding: 8px;
+        width: 250px;
+        border: 0;
+        border-radius: 50px;
+    }
+
+    .inputs button {
+        padding: 8px;
+        width: 130px;
+        border: 0;
+        border-radius: 50px;
+        background-color: rgb(36, 122, 243);
+        color: white;
+        cursor: pointer;
+    }
+}
